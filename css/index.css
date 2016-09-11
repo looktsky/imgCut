@@ -1,0 +1,149 @@
+/*顶部导航*/
+.header{
+    width:100%;
+    height:124px;
+    background-color: #2b2a2b;
+}
+.header .topBar{
+    width: 100%;
+    height:40px;
+    background: #121212;
+    border:1px solid #363636;
+}
+.header .topBar .topWrap>div{
+    height:40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.header .topBar .topWrapLeft{
+    background: url("../img/house.png") left center no-repeat;
+}
+.header .topBar .topWrapLeft span{
+    margin-left: 22px;
+    color: #b5b5b5;
+}
+.header .topBar .topWrapRight{
+    width:126px;
+    background: url("../img/topIcon.png") left center no-repeat;
+}
+.header .topBar .topWrapRight a{
+    color: #b5b5b5;
+}
+.header .topBar .topWrapRight a:first-child{
+    margin-left: 28px;
+}
+.header .topBar .topWrapRight span{
+    margin: 0 14px;
+    color:#b5b5b5 ;
+}
+.header .topNav{
+    height:83px;
+}
+.header .topNavLeft{
+    height: 83px;
+}
+.header .topNavLeft div:nth-child(1){
+    margin:19px 0 0 3px;
+    width:65px;
+    height:45px;
+    background: url("../img/logo_blue.png") no-repeat;
+}
+.header .topNavLeft div:nth-child(2){
+    margin:31px 0 0 15px;
+    width:73px;
+    height:19px;
+    background: url("../img/logo_yoyo.png") no-repeat;
+}
+.header .topNavLeft div:nth-child(3){
+    margin:29px 0 0 8px;
+    width:52px;
+    height:24px;
+    background: url("../img/logo_shouyou.png") no-repeat;
+}
+.header .topSearch{
+    position: relative;
+    width:194px;
+    height:32px;
+    background: #f6f6f6;
+    margin-top: 26px;
+}
+.header .topSearch .btnSearch{
+    background: url("../img/btn_search.png") no-repeat right center;
+    width:27px;
+    height:23px;
+    border-left: 1px solid #dfdfdf;
+    position: absolute;
+    top:5px;
+    right:10px;
+    cursor: pointer;
+}
+.header .topSearch input{
+    font-size: 20px;
+    padding-left: 15px;
+    width:145px;
+    height:32px;
+    margin-right:34px;
+    background: #f6f6f6;
+}
+.header .navBar>ul{
+    height: 83px;
+}
+.header .navBar>ul{
+    margin-top: 30px;
+    height: 21px;
+}
+.header .navBar>ul>li{
+    height:21px;
+    line-height: 21px;
+    text-align: center;
+    font-size: 16px;
+    border-left: 1px solid #0d0d0d;
+}
+.header .navBar>ul>li:nth-child(1){
+    width:76px;
+}
+.header .navBar>ul>li:nth-child(2){
+    width:88px;
+}
+.header .navBar>ul>li:nth-child(3){
+    width:84px;
+}
+.header .navBar>ul>li:nth-child(4){
+    width:80px;
+}
+.header .navBar>ul>li:nth-child(5){
+    width:84px;
+}
+.header .navBar>ul>li:last-child{
+    border: none;
+    width: 77px;
+}
+.header .navBar>ul>li>a{
+    color: #d7d7d7;
+    padding: 10px;
+}
+.header .navBar>ul>li>a:hover,.header .navBar>ul>li> .active{
+    color: #0099ff;
+}
+
+
+/*主要内容*/
+.content .gameTab{
+    height:213px;
+    border:1px solid #dfdfdf;
+    margin-top: 17px;
+}
+.content .gameTab .tabLeft{
+    height:213px;
+    width:114px;
+}
+.content .gameTab .tabLeft>ul{
+    height:213px;
+    width:114px;
+}
+.content .gameTab .tabLeft>ul>li{
+    height: 69px;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+}
